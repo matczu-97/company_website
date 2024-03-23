@@ -1,0 +1,13 @@
+/* ServicesSection.css */
+
+.services-section {
+    padding: 50px 50px;
+    text-align: right;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

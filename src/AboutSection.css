@@ -1,0 +1,24 @@
+/* AboutSection.css */
+
+.about-section {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-image {
+    padding: 50px;
+    width: 300px; /* Adjust the width of the image as needed */
+    margin-left: auto; /* Align the image to the right */
+    transition: transform 0.3s ease;
+  }
+  
+
+  .about-image:hover {
+    transform: scale(1.1); /* Grow the image slightly on hover */
+  }

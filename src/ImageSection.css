@@ -1,0 +1,16 @@
+/* ImageSection.css */
+
+.image-section {
+    text-align: center;
+  }
+  
+  .image {
+    padding: 100px;
+    width: 1000px; /* Adjust the width as needed */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .image:hover {
+    transform: scale(1.1); /* Grow the image slightly on hover */
+  }
+  
