@@ -2,18 +2,21 @@
 
 .about-section {
     display: flex;
-    align-items: center;
     text-align: right;
-    padding: 50px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
   }
   
   .about-content {
-    flex: 1;
+    width: 50%;
+    padding: 20px;
   }
   
   .about-image {
     padding: 50px;
-    width: 300px; /* Adjust the width of the image as needed */
+    width: 35%;/* Adjust the width of the image as needed */
     margin-left: auto; /* Align the image to the right */
     transition: transform 0.3s ease;
   }
@@ -22,3 +25,22 @@
   .about-image:hover {
     transform: scale(1.1); /* Grow the image slightly on hover */
   }
+
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-image {
+    order: -1; /* Move the image above the paragraph */
+    margin-bottom: 2px; /* Add some space between the image and the paragraph */
+    width: 60%;
+  }
+
+  .about-content {
+    width: 80%;
+    padding: 5px;
+  }
+  
+}

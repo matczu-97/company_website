@@ -11,6 +11,7 @@ const ImageSection = () => {
         src={mainImage} // Placeholder image URL, replace with your actual image URL
         alt="image of the main image"
         className="image"
+        id = "mainImage"
       />
     </div>
   );
