@@ -18,8 +18,8 @@ const NavBar = () => {
       <div className="desktop-menu">
         <Link to="contactUs" smooth={true} duration={500} className="contactUs"><span role="img" aria-label="phone">📞</span> צור קשר</Link>
         <div className="links">
-          <Link to ="about"    smooth={true} duration={500}>אודות</Link>
           <Link to ="services" smooth={true} duration={500}>שרותים</Link>
+          <Link to ="about"    smooth={true} duration={500}>אודות</Link>
           <Link to ="mainImage" smooth={true} duration={500}><i className='fa fa-home'></i></Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ const NavBar = () => {
       {menuOpen && (
         <div className="mobile-links">
           <a href="#mainImage"><i className='fa fa-home'></i></a>
-          <a href="#services">שרותים</a>
           <a href="#about">אודות</a>
+          <a href="#services">שרותים</a>
           <a href="#contactUs">📞</a>
         </div>
       )}

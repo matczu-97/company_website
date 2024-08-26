@@ -1,0 +1,5 @@
+add section for contact us ( email phone) 
+add EN button for changing language
+run npm install 
+npm audit fix --force if needed
+npm start to start the app
